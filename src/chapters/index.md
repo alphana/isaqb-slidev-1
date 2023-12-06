@@ -1,0 +1,3 @@
+---
+src: ./intro/intro.md
+---
