@@ -5,12 +5,16 @@
   "scripts": {
     "build": "slidev build",
     "dev": "slidev ./src/slides.md --open",
-    "export": "slidev export"
+    "export": "slidev export",
+    "publish:demo": "npm run build && gh-pages -d dist"
   },
   "dependencies": {
     "@slidev/cli": "^0.45.0",
     "@slidev/theme-default": "latest",
     "@slidev/theme-seriph": "latest",
     "slidev-theme-eloc": "^1.0.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.0"
   }
 }
